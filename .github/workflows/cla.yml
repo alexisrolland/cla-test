@@ -38,8 +38,10 @@ jobs:
           path-to-signatures: signatures/cla.json
           branch: main
 
-          # Allowlist bots so they don't need to sign (optional, comma-separated)
-          allowlist: dependabot[bot],github-actions[bot]
+          # Allowlist bots so they don't need to sign (optional, comma-separated).
+          # Matches GitHub LOGINS only (literal text + '*' wildcard; no emails/regex).
+          # '*[bot]' is a catch-all for any GitHub App bot account.
+          allowlist: dependabot[bot],github-actions[bot],copilot-swe-agent[bot],devin-ai-integration[bot],*[bot]
 
           # Custom PR comment messages
           custom-notsigned-prcomment: |
