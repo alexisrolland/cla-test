@@ -43,20 +43,23 @@ jobs:
 
           # Custom PR comment messages
           custom-notsigned-prcomment: |
-            Thank you for your contribution! We really appreciate it! 🎉
+            🎉 Thank you for your contribution! We really appreciate it! 🎉
             
-            Like many open source projects, we require contributors to sign our
-            [Contributor License Agreement](https://github.com/Comfy-Org/comfy-cla/blob/main/comfyui_icla.md) before we can accept your contribution.
+            Like many open source projects, we require contributors to sign our [Contributor License Agreement](https://github.com/Comfy-Org/comfy-cla/blob/main/comfyui_icla.md) before we can accept your contribution.
 
-            **Why a Contributor License Agreement (CLA)?**
-            
-            The CLA exists to clarify the ownership of code contributions, so that everyone (contributors and the project alike) has a clear understanding of how contributed code can be used. The agreement confirms that contributors own their code, retain the right to reuse it, and grant us permission to share it. In turn, it gives us an explicit copyright license to reuse those contributions within our projects.
+            ❔**Why a Contributor License Agreement (CLA)** ❔
 
-            A CLA is standard practice among major open source projects, including those backed by the Apache Software Foundation and the Linux community. In fact, our CLA is based on the one used by the Apache Foundation.
+            A CLA makes the ownership of contributions explicit, so contributors and the project share a clear understanding of how the code can be used. By signing, you:
 
-            Most importantly, adopting the CLA would allow us to relicense our software under a more permissive license, giving the project and its community greater flexibility going forward.
+            - Confirm that you own your contribution.
+            - Keep the right to reuse your own code.
+            - Grant us a copyright license to include and share it within our projects.
 
-            **To sign**, please post a new comment on this PR with exactly the following text:
+            CLAs are standard practice across major open source communities including projects under the Apache Software Foundation and the Linux Foundation. Ours is based on the Apache Software Foundation's CLA.
+
+            Most importantly, it lets us relicense the project under a more permissive license in the future, giving the project and its community greater flexibility.
+
+            ✍ **To sign, please post a new comment on this PR with exactly the following text:** ✍
 
           custom-pr-sign-comment: I have read and agree to the Contributor License Agreement
 
