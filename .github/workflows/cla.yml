@@ -43,21 +43,15 @@ jobs:
 
           # Custom PR comment messages
           custom-notsigned-prcomment: |
-            🎉 Thank you for your contribution! We really appreciate it! 🎉
-            
-            Like many open source projects, we require contributors to sign our [Contributor License Agreement](https://github.com/Comfy-Org/comfy-cla/blob/main/comfyui_icla.md) before we can accept your contribution.
+            🎉 Thank you for your contribution, we really appreciate it! 🎉
 
-            ❔**Why a Contributor License Agreement (CLA)** ❔
-
-            A CLA makes the ownership of contributions explicit, so contributors and the project share a clear understanding of how the code can be used. By signing, you:
+            Like many open source projects, we require contributors to sign our [Contributor License Agreement (CLA)](https://github.com/Comfy-Org/comfy-cla/blob/main/comfyui_icla.md). A CLA makes the ownership of contributions explicit, so contributors and the project share a clear understanding of how the code can be used. By signing, you:
 
             - Confirm that you own your contribution.
             - Keep the right to reuse your own code.
             - Grant us a copyright license to include and share it within our projects.
 
-            CLAs are standard practice across major open source communities including projects under the Apache Software Foundation and the Linux Foundation. Ours is based on the Apache Software Foundation's CLA.
-
-            Most importantly, it lets us relicense the project under a more permissive license in the future, giving the project and its community greater flexibility.
+            CLAs are standard practice across major open source projects including those under the Apache Software Foundation and the Linux Foundation. Ours is based on the Apache Software Foundation's CLA. Most importantly, it would enable us to relicense the project under a more permissive license in the future, giving the project and its community greater flexibility.
 
             ✍ **To sign, please post a new comment on this PR with exactly the following text:** ✍
 
